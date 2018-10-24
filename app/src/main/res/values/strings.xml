@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab5</string>
+    <string name="addText">Add</string>
+    <string name="editText">Edit</string>
+    <string name="delText">Del</string>
+    <string name="clearText">Clear</string>
+</resources>

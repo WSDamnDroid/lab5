@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/lstV"
+        style="@"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@color/lightPink"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:id="@+id/edTxt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:inputType="text"
+        android:background="@color/lightBlue"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/addText"
+            android:onClick="Add"/>
+
+        <Button
+            android:id="@+id/btnEd"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/editText"
+            android:onClick="Edit"/>
+
+        <Button
+            android:id="@+id/btnDel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/delText"
+            android:onClick="Del"/>
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/clearText"
+            android:onClick="Clr"/>
+    </LinearLayout>
+</LinearLayout>
